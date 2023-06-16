@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 
-  :host {
+:host {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
     color: #333;
@@ -56,6 +56,9 @@
   .toolbar #twitter-logo:hover,
   .toolbar #youtube-logo:hover {
     opacity: 0.8;
+  }
+  #res{
+    color:red;
   }
 
   .content {
@@ -270,9 +273,6 @@
     .terminal {
       width: 100%;
     }
-    #res{
-        color:purple;
-      }
 
     .card:not(.highlight-card) {
       height: 16px;
